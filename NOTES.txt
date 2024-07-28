@@ -1,1 +1,0 @@
-- for item heads used vanilla items with colorizing in GIMP with 0xbdbdbd

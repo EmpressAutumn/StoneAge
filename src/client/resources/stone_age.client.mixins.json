@@ -1,10 +1,8 @@
 {
 	"required": true,
-	"package": "com.atom596.stoneage.mixin.client",
+	"package": "com.atom596.stone.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ExampleClientMixin"
-	],
+	"client": [],
 	"injectors": {
 		"defaultRequire": 1
 	}

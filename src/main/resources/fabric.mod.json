@@ -3,9 +3,10 @@
 	"id": "stone_age",
 	"version": "${version}",
 	"name": "Stone Age",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Stone Age gives you feeling of man from stone age. No more magically created planks from wood logs, the way to the crafting table is long and dangerous.",
 	"authors": [
-		"Me!"
+		"Yanny",
+		"EmpressAutumn"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,13 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.atom596.stoneage.StoneAge"
+			"com.atom596.stone.StoneAge"
 		],
 		"client": [
-			"com.atom596.stoneage.StoneAgeClient"
+			"com.atom596.stone.StoneAgeClient"
 		],
 		"fabric-datagen": [
-			"com.atom596.stoneage.StoneAgeDataGenerator"
+			"com.atom596.stone.StoneAgeDataGenerator"
 		]
 	},
 	"mixins": [
@@ -37,8 +38,5 @@
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
