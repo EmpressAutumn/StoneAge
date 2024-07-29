@@ -2,6 +2,7 @@ package com.atom596.stone;
 
 import com.atom596.stone.block.StoneAgeBlocks;
 import com.atom596.stone.item.StoneAgeItemGroup;
+import com.atom596.stone.item.StoneAgeItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class StoneAge implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		StoneAgeItems.register();
 		StoneAgeBlocks.register();
 		StoneAgeItemGroup.register();
 
