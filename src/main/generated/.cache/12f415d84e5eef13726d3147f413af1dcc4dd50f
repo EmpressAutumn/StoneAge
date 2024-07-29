@@ -1,0 +1,4 @@
+// 1.21	2024-07-29T09:32:18.7126419	Stone Age/Block Loot Tables
+a7416a38f162136f25710d7e91b935d556ce4249 data\stone_age\loot_table\blocks\thatch_block.json
+a794ef9a6d2b14041ed46d4af6f9f50d8937a32b data\stone_age\loot_table\blocks\thatch_stairs.json
+bc7f30e1c06784a9c02f369f45962536a5032685 data\stone_age\loot_table\blocks\thatch_slab.json
